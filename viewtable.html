@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        *{
+            background-color: rgb(250, 198, 198);
+        }
+
+        div{
+            margin: 100px 200px;
+        }
+        table, th, td {
+          border: 1px solid black;
+ 
+          border-collapse: collapse;
+        } 
+        th, td {
+        background-color: #96D4D4;
+        
+        padding: 15px;
+        }
+        .tr:hover {
+            color: #d447ed;
+        }
+        .heading{
+            background-color: indianred !important;
+        }
+        /* tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }  */
+        
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr class="tr heading">
+                    <th>
+                        id
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Degree
+                    </th>
+                    <th>
+                        Age
+                    </th>
+                    <th>
+                        Mob Number
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr">
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        JC
+                    </td>
+                    <td>
+                        BSC IT
+                    </td>
+                    <td>
+                        18
+                    </td>
+                    <td>
+                        12345678901
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Anhyhr
+                    </td>
+                    <td>
+                        BCOM
+                    </td>
+                    <td rowspan="2">
+                        19
+                    </td>
+                    <td>
+                        12345678901
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Stfcvh
+                    </td>
+                    <td>
+                        BCA
+                    </td>
+                    
+                    <td>
+                        12345678901
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        Jxdfdgfdv cxxcscdsd
+                    </td>
+                    <td>
+                        BSC CS
+                    </td>
+                    <td>
+                        18
+                    </td>
+                    <td>
+                        12345678901
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        Ndfdgfutrhb
+                    </td>
+                    <td>
+                        BBA
+                    </td>
+                    <td>
+                        20
+                    </td>
+                    <td>
+                        12345678901
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

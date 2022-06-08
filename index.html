@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <title>
+
+        hello world
+    </title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .backo {
+            background: url("https://images.unsplash.com/photo-1654481862986-b7329dbdbbf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+            
+        }
+
+        .one {
+            font-size: 100px;
+            color: blue;
+        }
+
+        .for {
+            background: rgb(224, 197, 100) !important;
+            height: auto;
+            width: 300px;
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            margin-right: 20px;
+            padding: 20px 20px 20px 30px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        .ddd{
+            text-decoration: none;
+            color: black;
+            font-size:25px;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="backo">
+            <div >
+                <a href="text.html" class="ddd">Click here to see different text formatting using HTML</a><br><br>
+                <a href="view table.html" class="ddd">Click here to see different table formatting using HTML</a><br><br>
+                <a href="view table1.html" class="ddd">Click here to see different table formatting using HTML</a><br><br>
+                <a href="media.html" class="ddd">Click here to see media in HTML</a><br><br>
+            </div>
+        </div>
+
+        <div class="for">
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"  min="3" maxlength="30" required><br><br>
+
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br><br>
+
+
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd" required><br><br>
+
+            <label for="Gender">Gender:</label><br>
+            <input type="radio" id="M" name="Gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="F" name="Gender" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="O" name="Gender" value="Others">
+            <label for="Others">Others</label><br><br>
+
+            <label for="Age">Please specify Age:</label><br>
+            <input type="checkbox" id="age1" name="age1" value="Above 10">
+            <label for="age">Above 10</label><br>
+            <input type="checkbox" id="age2" name="age2" value="Above 20">
+            <label for="age">Above 20</label><br>
+            <input type="checkbox" id="age3" name="age3" value="Above 30">
+            <label for="age">Above 30</label><br><br>
+
+            <label for="cars">Choose the city:</label>
+            <select id="cars" name="cars">
+                <option value="Coimbatore" selected>Coimbatore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Trichy">Trichy</option>
+                <option value="Selam">Selam</option>
+            </select><br><br>
+
+            <textarea name="message" rows="5" cols="30">Please enter your comments here
+            </textarea><br><br>
+
+            <input type="range" id="a" name="a" value="50">how much do you like
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+
+
+
+            <input type="submit" value="Submit">
+
+        </div>
+    </form>
+
+</body>
+
+</html>
